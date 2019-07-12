@@ -129,7 +129,6 @@ Arm thickness: <input id="arm" type="text" class="num-input">
 
             v.renderBoard(m.getBoard(), "");
             // board starts out completely filled; first click selects empty slot, and game begins.
-            // to start out, may be easier to hardcode a starting empty slot, get the game play right, then deal with this.
             v.setMessage("Click to select starting empty slot");
             v.addCellClickListener(function (row, col) {
                 console.log(row, col);
